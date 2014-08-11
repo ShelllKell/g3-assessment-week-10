@@ -1,1 +1,18 @@
 <h2>Welcome</h2>
+
+<a href="/about">About</a>
+
+<p>
+
+<a href="/gifs/new">New Gif</a>
+
+<div class="flash">
+  <% if flash[:notice] %>
+    <%= flash[:notice] %>
+  <% end %>
+</div>
+
+
+<% @gifs.to_a.each do |gif| %>
+<div><%= gif %></div>
+<% end %>

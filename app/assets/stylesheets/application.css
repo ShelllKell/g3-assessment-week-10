@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+.field_with_errors {
+    display: inline;
+    border-color: red;
+}
+
+.errors {
+    display: inline;
+    color: red
+
+}
+
+
+.container {
+    outline: red;
+    color: red;
+}
+
+.flash {
+    padding: 1em;
+    background-color: green;
+}
+
+
